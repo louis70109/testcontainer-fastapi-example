@@ -28,5 +28,4 @@ jobs:
           API_ENV: 'testing'
           DATABASE_URI: postgresql://postgres:postgres@db/postgres
         run: |
-          cd fastapi-backend/
           python -m pytest -s tests/
