@@ -14,7 +14,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import users, login, webhooks, records
+from routers import users, login, records
 
 logger = logging.getLogger(__name__)
 
