@@ -1,6 +1,6 @@
 # Example for develops FastAPI in CONTAINER with VSCode
 
-Chinese content please follow here
+Following are Chinese contents:
 - [如何在 VSCode 中以 Container 方式開發 FastAPI + PostgreSQL](https://nijialin.com/2021/05/29/fastapi-dev-in-container-vscode/)
 - [【tetcontainer】使用 Python 在 Docker 中做資料庫的測試案例 | 來賓: PostgreSQL, Docker, Python, GitHub Actions](https://nijialin.com/2021/11/25/python-testcontainer-fasstapi-database/)
 
@@ -10,6 +10,7 @@ Chinese content please follow here
   - Extension
     - Python
     - Remote Container
+- Docker Desktop
 
 ## Development
 
