@@ -22,9 +22,9 @@ Following are Chinese contents:
 - Choose `Python: FastAPI` to run this project.
 - Then bottom-side would become different color.(Mean you run success)
 
-## License
+## Reference
 
-MIT
+- [How to access the database from unit test in Fast API?](https://stackoverflow.com/questions/65982681/how-to-access-the-database-from-unit-test-in-fast-api)
 
 ## Backup
 
@@ -40,6 +40,11 @@ refs: https://stackoverflow.com/questions/65982681/how-to-access-the-database-fr
 
 ### I can run Testcontainer at local, but why my LINE Bot function fail in GitHub Actions?
 
-Because we ran LINE Bot development and testing with `.env` file for environment variable, so LINE Bot webhook could init success in testing.
+Because we ran LINE Bot development and testing with `.env` file for environment variable.
+So LINE Bot webhook could init success in testing.
 
-Next, when your repo push to GitHub, you just set a real LINE Bot channel_access_token and channel_secret at GitHub Actions for testing, that your would success in testing.
+Next, when your repo push to GitHub, you just set a real LINE Bot `channel_access_token` and `channel_secret` at GitHub Actions for testing, that your would success in testing.
+
+## License
+
+MIT
